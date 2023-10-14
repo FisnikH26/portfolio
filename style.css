@@ -1,0 +1,50 @@
+body{
+    background-color: #5cdb95;
+    color: #edf5e1;
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    height: 200px;
+    margin: 10px auto 0;
+    color: #05386b;
+}   
+section{
+    height: 200px;
+    border-bottom:1px solid #379683 ;
+    background: #379683; 
+    padding: 5px 10px;
+    margin: 5px 0; 
+}
+section[class="motivational-video"]{
+    height: fit-content;
+}
+section .title{
+    background-color: #8ee4af;
+    width: fit-content;
+    padding: 10px 15px;
+    color: #05386b;
+
+}
+.about-me p {
+    margin-bottom: 5px;
+}
+.education p::before{
+    content: '🎓';
+}
+
+footer{ 
+    padding: 20px 0;
+}
+footer span{
+   background: #05386b;
+   padding: 10px 5px;
+   margin-right: 5px;
+}
+footer span a{
+    color: white;
+
+}
+footer span:hover{
+    background: #0863bd;
+}  

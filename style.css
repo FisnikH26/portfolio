@@ -8,13 +8,14 @@ body{
 }
 header{
     position: relative;
-    height: 250px;
-    margin: 10px auto 0; 
+    height: 300px;
+    margin: 10px auto 0;  
 }   
 header section {
     position: absolute;
     background: transparent;
     border: none;
+    
 }
 header section.left {
     top: 20%;
@@ -51,22 +52,18 @@ header section.right h1{
 header section.right  p{
     margin-left: 80px;
 }
-.main-section{
-    height: 200px; 
+.main-section{ 
     background: #35a29f24; 
     border-radius: 10px;
-    padding: 5px 10px;
-    margin: 100px 0; 
+    padding: 10px 10px 15px;
+    margin: 50px 0; 
     /* box-shadow: 5px 5px 0px 5px rgba(0,0,0,0.75), -5px -5px 0px 5px rgba(0,0,0,0.75); */
-}
-.main-section[class*="motivational-video"]{
-    height: fit-content;
-}
+} 
 section .title{
     background-color: #088395;
     width: fit-content;
     padding: 10px 15px; 
-
+    
 }
 .about-me p {
     margin-bottom: 5px;
@@ -74,7 +71,14 @@ section .title{
 .education p::before{
     content: '🎓';
 }
-
+.skills ul {
+    list-style: none;
+    text-align: center;
+}
+.skills ul li {
+    display: inline-block;
+    width: 20%;
+}
 footer{ 
     padding: 20px 0;
 }

@@ -1,96 +1,51 @@
-body{
-    background-color: #071952;
-    color: #fff;
-    width: 70%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-family: sans-serif;
+@font-face {
+    font-family: "Fox Grotesque";
+    src: url("./assets/fonts/FoxGrotesque/FoxGrotesquePro-Regular.ttf");
 }
-header{
-    position: relative;
-    height: 300px;
-    margin: 10px auto 0;  
-}   
-header section {
-    position: absolute;
-    background: transparent;
-    border: none;
-    
-}
-header section.left {
-    top: 20%;
-    left: 0;
-    width: 30%;
 
+ .list-item .active{
+  color: white;
+ }
+.ff-grotesque{
+  font-family: "Fox Grotesque";
 }
-header .my-photo{
-    background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(2,0,108,1) 100%);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    padding: 5px;
+.fw-thin{
+  font-weight: 300;
 }
-header .my-photo:hover{
-    background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(2,0,108,1) 100%);
-
+body {   
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-header .my-photo img{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-
+.section-title{
+  font-size: 5rem;
+  text-align: center;
+  border:2px dashed black;
+  padding-block: 1rem;
+  font-weight: bold;
 }
-header section.right {
-    width: 70%;
-    top: 20%;
-    right: 0;
+.higlight-text{
+  background:  #4bcbad ;
 }
-header section.right h1{
-    font-size: 60px;
-    margin-bottom: 0;
-}
-header section.right  p{
-    margin-left: 80px;
-}
-.main-section{ 
-    background: #35a29f24; 
-    border-radius: 10px;
-    padding: 10px 10px 15px;
-    margin: 50px 0; 
-    /* box-shadow: 5px 5px 0px 5px rgba(0,0,0,0.75), -5px -5px 0px 5px rgba(0,0,0,0.75); */
+.h-100dvh {
+  min-height: 100dvh;
 } 
-section .title{
-    background-color: #088395;
-    width: fit-content;
-    padding: 10px 15px; 
-    
+.greeting{
+    font-size: 2.5rem;
 }
-.about-me p {
-    margin-bottom: 5px;
-}
-.education p::before{
-    content: '🎓';
-}
-.skills ul {
-    list-style: none;
-    text-align: center;
-}
-.skills ul li {
-    display: inline-block;
-    width: 20%;
-}
-footer{ 
-    padding: 20px 0;
-}
-footer span{
-   border-bottom:2px solid #35a29f;
-   padding: 10px 5px;
-   margin-right: 5px;
-}
-footer span a{
-    color: white;
+.name{
+    font-size: 4.5rem;
 
 }
-footer span:hover{
-    background: #288380;
-}  
+.name span{
+    font-family: "Fox Grotesque";
+}
+ nav{
+  background: rgb(75, 203, 173);
+  
+}
+
+nav a{
+  color: black;
+}
+ 

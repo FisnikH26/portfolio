@@ -24,7 +24,7 @@
                     </li>
                     <li class="list-item">
                         <a href="/aboutme.html" class="text-decoration-none">ABOUT</a>
-                    </li> 
+                    </li>
                     <li class="list-item">
                         <a href="./portfolio.html" class="text-decoration-none active">PROJECTS</a>
                     </li>
@@ -35,45 +35,27 @@
             </nav>
         </div>
         <div class="col-lg-10">
-            <div class="contact pt-5 h-100dvh">
-                <h3 class="section-title ">Contact</h3>
-                <div class="content">
-                    <h2 class="fs-1 fw-thin py-3">Feel <span class="fw-bold">free</span> to contact me!</h2>
-                    <div>
-                        <ul class="nav gap-5 ">
-                            <li class="border border-warning d-flex align-items-center">
-                                <i class="fa-brands fa-github fs-3 px-1"></i>
-                                <a href="https://github.com/FisnikH26"
-                                    class="text-decoration-none text-black bg-warning px-3 fw-semibold fs-3"
-                                    target="_blank">
-                                    Github
-                                </a>
-                            </li>
-                            <li class="border border-warning d-flex align-items-center">
-                                <i class="fa-brands fa-facebook px-1 fs-3"></i>
-                                <a href="https://www.facebook.com/fisnik.hetemi.26"
-                                    class="text-decoration-none text-black bg-warning  px-3 fw-semibold fs-3"
-                                    target="_blank">Facebook</a>
-                            </li>
-                            <li class="border border-warning d-flex align-items-center">
-                                <i class="fa-brands fa-instagram px-1 fs-3"></i>
-                                <a href="https://www.instagram.com/fisnikhetemi.26/"
-                                    class="text-decoration-none text-black bg-warning  px-3 fw-semibold fs-3"
-                                    target="_blank">Instagram</a>
-                            </li>
-                            <li class="border border-warning d-flex align-items-center">
-                                <i class="fa-brands fa-x-twitter px-1 fs-3"></i>
-                                <a href="https://twitter.com/FisnikHetemi26"
-                                    class="text-decoration-none text-black bg-warning  px-3 fw-semibold fs-3"
-                                    target="_blank">X</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </div>
-
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "iloveislam209@gmail.com",
+                Password: "wolfmiant1!",
+                To: 'fisnikshetemi@gmail.com',
+                From: "iloveislam209@gmail.com",
+                Subject: "Sending Email using javascript",
+                Body: "Well that was easy!!",
+            })
+                .then(function (message) {
+                    alert("mail sent successfully")
+                });
+        } 
+    </script>
 </body>
 
 </html>

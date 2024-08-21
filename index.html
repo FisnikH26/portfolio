@@ -15,25 +15,239 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row h-100dvh">
-                <section class="col-lg-6 d-flex align-items-start justify-content-center flex-column right">
-                    <h2 class="greeting">HI THERE!</h2>
-                    <h2 class="name">I'm <span>Fisnik</span></h2>
-                    <p class="bg-warning fs-5 px-2 profession text-black fw-bold">FRONT-END DEVELOPER</p>
-                    <div>
-                        <p class="fs-5">I am Fisnik Hetemi. I am an aspiring web developer with special focus on
-                            front-end</p>
+
+    <section id="home" class="d-flex align-items-center justify-content-center flex-column  h-100dvh">
+
+        <h2 class="greeting">HI THERE!</h2>
+        <h2 class="name">I'm <span>Fisnik</span> <span>Hetemi</span></h2>
+        <p class="bg-warning fs-5 px-2 profession text-black fw-bold">FRONT-END DEVELOPER</p>
+        <div>
+            <p class="fs-5">I am an aspiring web developer with special focus on
+                front-end</p>
+        </div>
+        <a href="#aboutme.html" class="btn btn-warning text-white fs-5 px-4 py-2 fw-bold rounded-pill">MORE
+            ABOUT ME
+        </a>
+    </section>
+
+    <div class="row">
+        <div class="col-lg-2">
+            <nav class="position-sticky h-100dvh top-0 d-flex align-items-center">
+                <ul class="nav flex-column fw-semibold justify-content-center  align-items-center gap-5">
+                    <li class="list-item">
+                        <a href="#home" class="text-decoration-none">HOME</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#about" class="text-decoration-none">ABOUT</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#portfolio" class="text-decoration-none">PROJECTS</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#contact" class="text-decoration-none">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-lg-10">
+            <!-- About -->
+            <div id="about" class="about pt-5 h-100dvh">
+                <h3 class="section-title ">ABOUT</h3>
+                <div class="content pt-5">
+                     <div>
+                        <h2>I am <span class="fw-bold">Fisnik Hetemi,</span> Front-End Developer</h2>
+                        <p>I am a passionate and innovative web developer dedicated to crafting immersive online experiences.<br>  Proficient in a variety of programming languages and always eager to stay at the forefront of industry trends,</p>
+                     </div>
+                     <div class="education border-bottom">
+                        <h5 class="fw-bold">EDUCATION</h5>
+                        <div class="row pt-5">
+                            <div class="col-lg-4">
+                                <span class="higlight-text text-white fw-semibold py-1 px-2">UBT</span>
+                                <h6 class="fw-bold">Computer Science</h6>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <span class="higlight-text text-white fw-semibold py-1 px-2">PËRPROGRAMERA</span>
+                                <h6 class="fw-bold">Bootcamp - Full-Stack Web Developer Bootcamp</h6>
+                            </div>
+                        </div>
                     </div>
-                    <a href="/aboutme.html" class="btn btn-warning text-white fs-5 px-4 py-2 fw-bold rounded-pill">MORE ABOUT ME
-                    </a>
-                </section> 
+                     <div class="skills mt-5">
+                        <h5 class="fw-semibold">My Skills</h5>
+                        <div class="row gap-2">
+                            <div class="col-lg-1">
+                                <div class="card">
+                                    <img src="./assets/img/html-icon.png" class="card-img-top"> 
+                                </div>
+                            </div> 
+                            <div class="col-lg-1">
+                                <div class="card">
+                                    <img src="./assets/img/css-icon.png" class="card-img-top"> 
+                                </div>
+                            </div> 
+                            <div class="col-lg-1">
+                                <div class="card">
+                                    <img src="./assets/img/bootstrap-icon.png" class="card-img-top"> 
+                                </div>
+                            </div> 
+                            <div class="col-lg-1">
+                                <div class="card">
+                                    <img src="./assets/img/sass-icon.png" class="card-img-top"> 
+                                </div>
+                            </div> 
+                            <div class="col-lg-1">
+                                <div class="card">
+                                    <img src="./assets/img/js-icon.png" class="card-img-top"> 
+                                </div>
+                            </div> 
+                            <div class="col-lg-1">
+                                <div class="card">
+                                    <img src="./assets/img/vue-js-icon.png" class="card-img-top"> 
+                                </div>
+                            </div> 
+                            <div class="col-lg-1">
+                                <div class="card">
+                                    <img src="./assets/img/react-js-icon.png" class="card-img-top"> 
+                                </div>
+                            </div> 
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <!-- End - About -->
+            <!-- Portfolio -->
+            <div id="portfolio" class="portfolio pt-5 h-100dvh">
+                <h3 class="section-title ">PORTFOLIO</h3>
+                <div class="content">
+                    <!-- <div class="tabs">
+                            <button class="btn">ALL</button> 
+                        </div> -->
+                    <div>
+                        <div class="row m-0 p-0">
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <img src="https://placehold.co/600x400/4bcbad/fff" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0 fw-bold">HippoReads</h5>
+                                        <div class="border border-dark d-inline">
+                                            <i class="fa-brands fa-github px-1 fs-6"></i>
+                                            <a href="https://github.com/FisnikH26/hipporeads"
+                                                class="text-decoration-none text-light bg-dark  px-3 fw-semibold fs-6"
+                                                target="_blank">Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 pb-2">
+                                        <img src="./assets/img/html-icon.png" alt="HTML icon" width="30px">
+                                        <img src="./assets/img/css-icon.png" alt="CSS icon" width="30px">
+                                        <img src="./assets/img/js-icon.png" alt="JS icon" width="30px">
+                                        <img src="./assets/img/react-js-icon.png" alt="React icon" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <img src="https://placehold.co/600x400/4bcbad/fff" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0 fw-bold">TickTak <sub class="bottom-0">(Tiktok clone)</sub></h5>
+                                        <div class="border border-dark d-inline">
+                                            <i class="fa-brands fa-github px-1 fs-6"></i>
+                                            <a href="https://github.com/FisnikH26/TickTak"
+                                                class="text-decoration-none text-light bg-dark  px-3 fw-semibold fs-6"
+                                                target="_blank">Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 pb-2">
+                                        <img src="./assets/img/html-icon.png" alt="HTML icon" width="30px">
+                                        <img src="./assets/img/css-icon.png" alt="CSS icon" width="30px">
+                                        <img src="./assets/img/js-icon.png" alt="JS icon" width="30px">
+                                        <img src="./assets/img/react-js-icon.png" alt="React icon" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <img src="https://placehold.co/600x400/4bcbad/fff" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0 fw-bold">Farm - Organic Store</h5>
+                                        <div class="border border-dark d-inline">
+                                            <i class="fa-brands fa-github px-1 fs-6"></i>
+                                            <a href="https://github.com/FisnikH26/Farm---Organic-Store"
+                                                class="text-decoration-none text-light bg-dark  px-3 fw-semibold fs-6"
+                                                target="_blank">Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 pb-2">
+                                        <img src="./assets/img/html-icon.png" alt="HTML icon" width="30px">
+                                        <img src="./assets/img/css-icon.png" alt="CSS icon" width="30px">
+                                        <img src="./assets/img/js-icon.png" alt="JS icon" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card">
+                                    <img src="https://placehold.co/600x400/4bcbad/fff" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-0 fw-bold">FlexIT - Landing page</h5>
+                                        <div class="border border-dark d-inline">
+                                            <i class="fa-brands fa-github px-1 fs-6"></i>
+                                            <a href="https://github.com/FisnikH26/Farm---Organic-Store"
+                                                class="text-decoration-none text-light bg-dark  px-3 fw-semibold fs-6"
+                                                target="_blank">Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 pb-2">
+                                        <img src="./assets/img/html-icon.png" alt="HTML icon" width="30px">
+                                        <img src="./assets/img/sass-icon.png" alt="SCSS icon" width="30px">
+                                        <img src="./assets/img/js-icon.png" alt="JS icon" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End - Porfolio -->
+             <!-- Contact -->
+             <div id="contact" class="contact pt-5 h-100dvh">
+                <h3 class="section-title ">Contact</h3>
+                <div class="content">
+                    <h2 class="fs-1 fw-thin py-3">Feel <span class="fw-bold">free</span> to contact me!</h2>
+                    <div>
+                        <ul class="nav gap-5 ">
+                            <li class="border border-warning d-flex align-items-center">
+                                <i class="fa-brands fa-github fs-3 px-1"></i>
+                                <a href="https://github.com/FisnikH26"
+                                    class="text-decoration-none text-black bg-warning px-3 fw-semibold fs-3"
+                                    target="_blank">
+                                    Github
+                                </a>
+                            </li>
+                            <li class="border border-warning d-flex align-items-center">
+                                <i class="fa-brands fa-facebook px-1 fs-3"></i>
+                                <a href="https://www.facebook.com/fisnik.hetemi.26"
+                                    class="text-decoration-none text-black bg-warning  px-3 fw-semibold fs-3"
+                                    target="_blank">Facebook</a>
+                            </li>
+                            <li class="border border-warning d-flex align-items-center">
+                                <i class="fa-brands fa-instagram px-1 fs-3"></i>
+                                <a href="https://www.instagram.com/fisnikhetemi.26/"
+                                    class="text-decoration-none text-black bg-warning  px-3 fw-semibold fs-3"
+                                    target="_blank">Instagram</a>
+                            </li>
+                            <li class="border border-warning d-flex align-items-center">
+                                <i class="fa-brands fa-x-twitter px-1 fs-3"></i>
+                                <a href="https://twitter.com/FisnikHetemi26"
+                                    class="text-decoration-none text-black bg-warning  px-3 fw-semibold fs-3"
+                                    target="_blank">X</a>
+                                <Button onclick="sendEmail()">Text</Button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-    </header>
-     
     <!-- <footer>
         
     </footer> -->

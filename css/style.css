@@ -70,8 +70,11 @@ nav a{
 }
 
 
+.skills .card{
+  scale: 1.1; 
+}
 .skills .card:hover{
-  background: #000;
-  scale: 1.1;
+  background: #333;
+  scale: 1.2;
   transition: background 500ms linear,scale 500ms linear ;
 }

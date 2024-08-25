@@ -1,21 +1,15 @@
-:root{
-  --neongreen:185,254,3;
-  --black:0,0,0;
-}
-
+ 
 @font-face {
     font-family: "Fox Grotesque";
     src: url("./assets/fonts/FoxGrotesque/FoxGrotesquePro-Regular.ttf");
 }
 
  
-.bg-neongreen{
-  background: rgb(var(--neongreen));
+ 
+.main-text{
+  font-size: 2rem;
+  text-align: center;
 }
-.text-neongreen{
-  color: rgb(var(--neongreen));
-}
-
  .list-item .active{
   color: white;
  }
@@ -71,10 +65,16 @@ nav a{
 
 
 .skills .card{
-  scale: 1.1; 
+  width: 100px;
+  height: 100px;
 }
 .skills .card:hover{
   background: #333;
   scale: 1.2;
   transition: background 500ms linear,scale 500ms linear ;
+}
+
+
+.projects .card{
+  width: 250px;
 }
